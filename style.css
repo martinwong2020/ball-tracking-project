@@ -1,0 +1,100 @@
+/* .circle{
+  height:50px;
+  width:50px;
+  background-color:aqua;
+  border-radius:50%;
+}
+
+/* .score{
+  color:white;
+} */
+.score{
+  display:flex;
+  justify-content:center;
+  /* height:100px; */
+  margin:auto;
+  /* background-color:black; */
+}
+.timer{
+  display:flex;
+  justify-content:center;
+  /* height:100px; */
+  margin:auto;
+}
+.start{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:100px;
+}
+.top{
+  display:flex;
+  height:100px;
+  background-color:black;
+  justify-content: space-evenly;
+}
+a:link{
+  color:inherit;
+}
+.topFont, a:link,a:visited{
+  color:white;
+}
+.gridTop{
+  height:100px;
+  background-color:bisque;
+  /* border: 10px solid; */
+  width:800px;
+  margin:auto;
+  display: flex;
+  justify-content:center;
+  border:10px solid #72dae7;
+}
+.GridBoard{
+  margin:auto;
+  height:800px;
+  width:800px;
+  border-color:black;
+  border:10px solid;
+  background-color:blanchedalmond;
+  background-image:url(https://i.pinimg.com/736x/29/c7/6d/29c76d52dc844feb2c4529e28f217bcf.jpg);
+  background-size: cover;
+}
+.point{
+  height:0px;
+  width:0px;
+  /* background-color:aqua; */
+  border: 30px solid blanchedalmond;
+  border-radius:30px;
+  position: relative;
+  left:375px;
+  top:375px;
+}
+.point1{
+  height:0px;
+  width:0px;
+  border: 30px solid blanchedalmond;
+  border-radius:30px;
+  position: relative;
+  left:375px;
+  top:375px;
+}
+.point2{
+  height:0px;
+  width:0px;
+  border: 30px solid blanchedalmond;
+  border-radius:30px;
+  position: relative;
+  left:1px;
+  top:0px;
+}
+.base-timer {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.body{
+  background-image:url(https://cutewallpaper.org/21/animated-cherry-blossom-tree/Animated-gif-about-gif-in-Shigatsu-wa-kimi-no-uso-by-Sanji-san.gif);
+  /* background-color:blanchedalmond; */
+  background-size: cover;
+}
